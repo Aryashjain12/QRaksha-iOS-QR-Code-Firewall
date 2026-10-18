@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* QRakshaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* QRakshaApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* ScannerView.swift */; };
+		A10000000000000000000004 /* URLRiskAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* URLRiskAnalyzer.swift */; };
+		A10000000000000000000005 /* ScanRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* ScanRecord.swift */; };
+		A10000000000000000000006 /* URLRiskAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* URLRiskAnalyzerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* QRakshaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRakshaApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* URLRiskAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRiskAnalyzer.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* ScanRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecord.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000007 /* URLRiskAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRiskAnalyzerTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* QRaksha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRaksha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000009 /* QRakshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRakshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (C10000000000000000000011 /* QRaksha */, C10000000000000000000012 /* QRakshaTests */, C10000000000000000000013 /* Products */);
+			sourceTree = "<group>";
+		};
+		C10000000000000000000011 /* QRaksha */ = {
+			isa = PBXGroup;
+			path = QRaksha;
+			sourceTree = "<group>";
+			children = (
+				B10000000000000000000001 /* QRakshaApp.swift */,
+				B10000000000000000000002 /* ContentView.swift */,
+				B10000000000000000000003 /* ScannerView.swift */,
+				B10000000000000000000004 /* URLRiskAnalyzer.swift */,
+				B10000000000000000000005 /* ScanRecord.swift */,
+				B10000000000000000000006 /* Info.plist */,
+			);
+		};
+		C10000000000000000000012 /* QRakshaTests */ = {
+			isa = PBXGroup;
+			path = QRakshaTests;
+			sourceTree = "<group>";
+			children = (B10000000000000000000007 /* URLRiskAnalyzerTests.swift */,);
+		};
+		C10000000000000000000013 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+			children = (B10000000000000000000008 /* QRaksha.app */, B10000000000000000000009 /* QRakshaTests.xctest */,);
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10000000000000000000001 /* QRaksha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10000000000000000000001 /* Build configuration list for PBXNativeTarget "QRaksha" */;
+			buildPhases = (F10000000000000000000001 /* Sources */, F10000000000000000000002 /* Frameworks */, F10000000000000000000003 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = QRaksha;
+			productName = QRaksha;
+			productReference = B10000000000000000000008 /* QRaksha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10000000000000000000002 /* QRakshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10000000000000000000002 /* Build configuration list for PBXNativeTarget "QRakshaTests" */;
+			buildPhases = (F10000000000000000000004 /* Test Sources */; F10000000000000000000005 /* Test Frameworks */;);
+			buildRules = ();
+			dependencies = (G10000000000000000000001 /* PBXTargetDependency */;);
+			name = QRakshaTests;
+			productName = QRakshaTests;
+			productReference = B10000000000000000000009 /* QRakshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		G10000000000000000000002 /* Container proxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C10000000000000000000001;
+			proxyType = 1;
+			remoteGlobalIDString = D10000000000000000000001;
+			remoteInfo = QRaksha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		G10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10000000000000000000001 /* QRaksha */;
+			targetProxy = G10000000000000000000002 /* Container proxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* QRakshaApp.swift in Sources */, A10000000000000000000002 /* ContentView.swift in Sources */, A10000000000000000000003 /* ScannerView.swift in Sources */, A10000000000000000000004 /* URLRiskAnalyzer.swift in Sources */, A10000000000000000000005 /* ScanRecord.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		F10000000000000000000004 /* Test Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006 /* URLRiskAnalyzerTests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		F10000000000000000000005 /* Test Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCConfigurationList section */
+		E10000000000000000000001 /* Build configuration list for PBXNativeTarget "QRaksha" */ = {isa = XCConfigurationList; buildConfigurations = (H10000000000000000000001 /* Debug */, H10000000000000000000002 /* Release */,); defaultConfigurationIsVisible = 0; };
+		E10000000000000000000002 /* Build configuration list for PBXNativeTarget "QRakshaTests" */ = {isa = XCConfigurationList; buildConfigurations = (H10000000000000000000003 /* Debug */, H10000000000000000000004 /* Release */,); defaultConfigurationIsVisible = 0; };
+		E10000000000000000000003 /* Project */ = {isa = XCConfigurationList; buildConfigurations = (H10000000000000000000005 /* Debug */, H10000000000000000000006 /* Release */,); defaultConfigurationIsVisible = 0; };
+/* End XCConfigurationList section */
+
+/* Begin XCBuildConfiguration section */
+		H10000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = QRaksha/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.qraksha.app;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.9;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; };
+		H10000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = QRaksha/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.qraksha.app;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.9;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; };
+		H10000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGN_STYLE = Automatic;
+			GENERATE_INFOPLIST_FILE = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.qraksha.app.tests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.9;
+			TARGETED_DEVICE_FAMILY = "1,2";
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRaksha.app/QRaksha";
+		}; };
+		H10000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGN_STYLE = Automatic;
+			GENERATE_INFOPLIST_FILE = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.qraksha.app.tests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.9;
+			TARGETED_DEVICE_FAMILY = "1,2";
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRaksha.app/QRaksha";
+		}; };
+		H10000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			SDKROOT = iphoneos;
+			SWIFT_VERSION = 5.9;
+		}; };
+		H10000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			SDKROOT = iphoneos;
+			SWIFT_VERSION = 5.9;
+		}; };
+/* End XCBuildConfiguration section */
+
+	};
+	rootObject = C10000000000000000000001;
+}

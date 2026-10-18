@@ -1,0 +1,22 @@
+QRaksha controlled demo payloads
+=================================
+
+BENIGN-LOOKING EXAMPLE (not a safety guarantee):
+https://example.com
+
+HTTP + IP HOST warning demo (documentation-only IP, not intended to host a service):
+http://192.0.2.10/login
+
+HOSTNAME STRUCTURE demo (does not claim this is a live phishing page):
+https://paypal.com.example.org/login
+
+URL SHORTENER warning demo:
+https://bit.ly/example
+
+INVALID SCHEME demo:
+javascript:alert(1)
+
+Safety note:
+These strings are for demonstrating local URL parsing and warning heuristics only.
+Do not open suspicious destinations. A warning is not proof of maliciousness,
+and no warning is not proof of safety.
